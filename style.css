@@ -1,0 +1,137 @@
+* {
+  color: hsl(228, 39%, 23%);
+  --main-color: hsl(12, 88%, 59%);
+}
+
+.nav-btn {
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+.lmao {
+  background-color: var(--main-color);
+}
+.lmao:hover {
+  background-color: hsl(12, 84%, 71%);
+}
+.lmao2 {
+  display: flex;
+  margin: auto;
+}
+
+label {
+  text-align: center;
+  /* margin-right: 30px; */
+  background-color: var(--main-color);
+  width: 50px;
+  height: 28px;
+  color: white;
+  border-radius: 50px;
+  margin-bottom: -30px;
+}
+/* hsl(12, 84%, 71%) */
+#carsol {
+  margin-top: 100px;
+}
+.h1--carsoul {
+  text-align: center;
+}
+.bi {
+  fill: var(--main-color);
+  margin-bottom: -45px;
+}
+
+/* .container--carsol {
+  max-width: 50%;
+} */
+/* .centerr {
+  align-items: center;
+  margin: 20px 20px;
+} */
+
+.casoul--body {
+  text-align: center;
+  background-color: hsl(210deg 17% 98%);
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+.carsol--photo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.slide {
+  margin-bottom: 20px;
+}
+
+.section--bg {
+  background-color: var(--main-color);
+}
+
+.title {
+  color: white;
+  justify-content: center;
+}
+
+.lmao3 {
+  background-color: white;
+  color: var(--main-color);
+  margin-top: 15px;
+  border: none;
+}
+
+.style--ul ul {
+  list-style: none;
+}
+.style--ul ul li a {
+  text-decoration: none;
+  color: white;
+}
+.style--ul ul li a:hover {
+  color: var(--main-color);
+}
+.style--ul ul li {
+  padding-top: 10px;
+}
+
+/* .ok a:hover {
+  color: red;
+  background-color: red;
+} */
+.icons i {
+  margin: 15px 15px;
+  padding-top: 10px;
+  color: white;
+}
+.icons i:hover {
+  color: var(--main-color);
+}
+/*  media  */
+
+@media (max-width: 990px) {
+  .navbar-nav {
+    display: flex;
+    background-color: antiquewhite;
+  }
+
+  .navbar-collapse .btn {
+    display: none;
+  }
+  .navbar-brand {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+  }
+}
