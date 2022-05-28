@@ -30,6 +30,10 @@
   margin: auto;
 }
 
+.container--mob {
+  margin-top: -100px;
+}
+
 label {
   text-align: center;
   /* margin-right: 30px; */
@@ -52,6 +56,19 @@ label {
   margin-bottom: -45px;
 }
 
+.svg--pos svg {
+  position: absolute;
+  opacity: 10%;
+  transform: rotate(275deg);
+  /* display: flex; */
+  max-width: 80%;
+  /* justify-content: left; */
+}
+.svg--pos {
+  position: relative;
+  top: -500px;
+  right: -550px;
+}
 /* .container--carsol {
   max-width: 50%;
 } */
@@ -133,5 +150,15 @@ label {
     display: flex;
     /* flex-direction: row-reverse; */
     justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .ss {
+    width: 50%;
+    font-size: 18px;
+  }
+  .imgt {
+    display: none;
   }
 }
